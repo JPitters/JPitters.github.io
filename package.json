@@ -26,5 +26,11 @@
   "homepage": "https://github.com/JPitters/JPitters.github.io#readme",
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
   }
 }
