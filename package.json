@@ -1,0 +1,30 @@
+{
+  "name": "jpitters.github.io",
+  "version": "1.0.0",
+  "description": "An explorative experience by Jordan Pitters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPitters/JPitters.github.io.git"
+  },
+  "keywords": [
+    "[Jordan",
+    "Pitters",
+    "Personal",
+    "Technology",
+    "Blog",
+    "Engineering]"
+  ],
+  "author": "Jordan Pitters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JPitters/JPitters.github.io/issues"
+  },
+  "homepage": "https://github.com/JPitters/JPitters.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
