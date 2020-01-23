@@ -110,6 +110,10 @@ body {
 .masthead-brand {
   margin-bottom: 0;
 }
+.masthead-brand:hover,
+.masthead-brand:focus{
+    
+}
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
@@ -121,6 +125,8 @@ body {
     border-bottom-right-radius: 3px;
 }
 
+.masthead-brand:hover,
+.masthead-brand:focus,
 .nav-link:hover,
 .nav-link:focus {
   border-bottom-color: rgba(205, 205, 205, .55);
@@ -160,9 +166,7 @@ body {
     box-shadow: 19px 19px 19px #2c2c2c, 
             -19px -19px 19px #3a3a3a;
 }
-.cover .lead {
-    z-index: 99;
-}
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
