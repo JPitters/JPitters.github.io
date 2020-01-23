@@ -152,17 +152,30 @@ body {
  */
 .cover {
   padding: 1.5rem 1.9rem;
-    margin: 0 0;
-    z-index: 99;
+    position: relative;
+    margin: 0 5%;
+    z-index: 9;
     border-radius: 50px;
     background: linear-gradient(145deg, #2e2e2e, #373737);
     box-shadow: 19px 19px 19px #2c2c2c, 
             -19px -19px 19px #3a3a3a;
 }
+.cover .lead {
+    z-index: 99;
+}
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
   box-shadow: 1px 10px 19px #3f3f3f;
+}
+.img-circle {
+    border-radius: 100%;
+    border: .4rem solid #333;
+    width: 24%;
+    position: absolute;
+    top: -10%;
+    right: -4%;
+    z-index: -1;
 }
 
 
