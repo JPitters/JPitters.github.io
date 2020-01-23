@@ -103,6 +103,8 @@ body {
  */
 .masthead {
   margin-bottom: 2rem;
+    z-index: 99;
+    width: 100%;
 }
 
 .masthead-brand {
@@ -114,12 +116,16 @@ body {
   font-weight: 700;
   color: rgba(255, 255, 255, .5);
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  border-bottom: .2rem solid transparent;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+.nav-link:hover,
+.nav-link:focus {
+  border-bottom-color: rgba(205, 205, 205, .55);
+    box-shadow: 1px 50px 19px #3f3f3f;
+    background-color: transparent;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -131,7 +137,7 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 8em) {
   .masthead-brand {
     float: left;
   }
