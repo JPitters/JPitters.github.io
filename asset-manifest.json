@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jpitters.github.io/static/css/main.d1b05096.chunk.css",
+    "main.js": "/jpitters.github.io/static/js/main.aedfe44c.chunk.js",
+    "main.js.map": "/jpitters.github.io/static/js/main.aedfe44c.chunk.js.map",
+    "runtime-main.js": "/jpitters.github.io/static/js/runtime-main.79e2e1d0.js",
+    "runtime-main.js.map": "/jpitters.github.io/static/js/runtime-main.79e2e1d0.js.map",
+    "static/js/2.d4472c9a.chunk.js": "/jpitters.github.io/static/js/2.d4472c9a.chunk.js",
+    "static/js/2.d4472c9a.chunk.js.map": "/jpitters.github.io/static/js/2.d4472c9a.chunk.js.map",
+    "index.html": "/jpitters.github.io/index.html",
+    "precache-manifest.721c91e1300321f35106fbd93cd0fa9f.js": "/jpitters.github.io/precache-manifest.721c91e1300321f35106fbd93cd0fa9f.js",
+    "service-worker.js": "/jpitters.github.io/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/jpitters.github.io/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.d4472c9a.chunk.js.LICENSE": "/jpitters.github.io/static/js/2.d4472c9a.chunk.js.LICENSE",
+    "static/media/logo.svg": "/jpitters.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79e2e1d0.js",
+    "static/js/2.d4472c9a.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.aedfe44c.chunk.js"
+  ]
+}
