@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/JPitters/JPitters.github.io/static/css/main.8ab6f918.chunk.css",
-    "main.js": "/JPitters/JPitters.github.io/static/js/main.cb14486b.chunk.js",
-    "main.js.map": "/JPitters/JPitters.github.io/static/js/main.cb14486b.chunk.js.map",
-    "runtime-main.js": "/JPitters/JPitters.github.io/static/js/runtime-main.1d0bcad6.js",
-    "runtime-main.js.map": "/JPitters/JPitters.github.io/static/js/runtime-main.1d0bcad6.js.map",
-    "static/js/2.d4472c9a.chunk.js": "/JPitters/JPitters.github.io/static/js/2.d4472c9a.chunk.js",
-    "static/js/2.d4472c9a.chunk.js.map": "/JPitters/JPitters.github.io/static/js/2.d4472c9a.chunk.js.map",
-    "index.html": "/JPitters/JPitters.github.io/index.html",
-    "precache-manifest.3539fa8c47d4c8042bf6c79a1ff93a7d.js": "/JPitters/JPitters.github.io/precache-manifest.3539fa8c47d4c8042bf6c79a1ff93a7d.js",
-    "service-worker.js": "/JPitters/JPitters.github.io/service-worker.js",
-    "static/css/main.8ab6f918.chunk.css.map": "/JPitters/JPitters.github.io/static/css/main.8ab6f918.chunk.css.map",
-    "static/js/2.d4472c9a.chunk.js.LICENSE.txt": "/JPitters/JPitters.github.io/static/js/2.d4472c9a.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/JPitters/JPitters.github.io/static/media/logo.ee7cd8ed.svg"
+    "main.css": "JPitters.github.io/static/css/main.d1b05096.chunk.css",
+    "main.js": "JPitters.github.io/static/js/main.2c3bb654.chunk.js",
+    "main.js.map": "JPitters.github.io/static/js/main.2c3bb654.chunk.js.map",
+    "runtime-main.js": "JPitters.github.io/static/js/runtime-main.8612658d.js",
+    "runtime-main.js.map": "JPitters.github.io/static/js/runtime-main.8612658d.js.map",
+    "static/js/2.d4472c9a.chunk.js": "JPitters.github.io/static/js/2.d4472c9a.chunk.js",
+    "static/js/2.d4472c9a.chunk.js.map": "JPitters.github.io/static/js/2.d4472c9a.chunk.js.map",
+    "index.html": "JPitters.github.io/index.html",
+    "precache-manifest.a8d60f818d85c37383ab32a464daeb7a.js": "JPitters.github.io/precache-manifest.a8d60f818d85c37383ab32a464daeb7a.js",
+    "service-worker.js": "JPitters.github.io/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "JPitters.github.io/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.d4472c9a.chunk.js.LICENSE.txt": "JPitters.github.io/static/js/2.d4472c9a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "JPitters.github.io/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d0bcad6.js",
+    "static/js/runtime-main.8612658d.js",
     "static/js/2.d4472c9a.chunk.js",
-    "static/css/main.8ab6f918.chunk.css",
-    "static/js/main.cb14486b.chunk.js"
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.2c3bb654.chunk.js"
   ]
 }
