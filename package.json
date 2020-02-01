@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/JPitters/JPitters.github.io/issues"
   },
-  "homepage": "https://github.com/JPitters/JPitters.github.io#readme",
+  "homepage": "https://github.com/JPitters/JPitters.github.io",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JPitters/JPitters.github.io.git"
@@ -17,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
