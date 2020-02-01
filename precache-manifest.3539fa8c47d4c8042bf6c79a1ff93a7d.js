@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24df42d3316c79c78081687446c40e73",
+    "revision": "d0b2e6652db5602959caebf1ca58d3a2",
     "url": "/JPitters/JPitters.github.io/index.html"
   },
   {
-    "revision": "99f4d683259f05c86622",
-    "url": "/JPitters/JPitters.github.io/static/css/main.d1b05096.chunk.css"
+    "revision": "3ac51d7d352b8d1424c3",
+    "url": "/JPitters/JPitters.github.io/static/css/main.8ab6f918.chunk.css"
   },
   {
     "revision": "ea512d0f9b506173702e",
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JPitters/JPitters.github.io/static/js/2.d4472c9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99f4d683259f05c86622",
-    "url": "/JPitters/JPitters.github.io/static/js/main.270fcc4e.chunk.js"
+    "revision": "3ac51d7d352b8d1424c3",
+    "url": "/JPitters/JPitters.github.io/static/js/main.cb14486b.chunk.js"
   },
   {
     "revision": "3d6bf8aae3cbf027fd64",
     "url": "/JPitters/JPitters.github.io/static/js/runtime-main.1d0bcad6.js"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/JPitters/JPitters.github.io/static/media/logo.5d5d9eef.svg"
+    "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
+    "url": "/JPitters/JPitters.github.io/static/media/logo.ee7cd8ed.svg"
   }
 ]);
