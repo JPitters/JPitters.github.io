@@ -1,0 +1,17 @@
+
+
+.site-footer {
+    display: flex;
+    max-width: 42em;
+    text-align: center;
+
+    .mastfoot {
+        .inner {
+            a,
+            a:focus,
+            a:hover {
+                color: $base-niji;
+            }
+        }
+    }
+}

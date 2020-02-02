@@ -1,7 +1,12 @@
+//bootstrap
 @import "bootstrap/dist/css/bootstrap.min.css";
 
+//styling support
+@import "variables";
+@import "keyframes";
+@import "common";
 
-
+//application styles
 @import "components/all";
 @import "layouts/all";
 @import "scenes/all";

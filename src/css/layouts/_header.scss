@@ -1,0 +1,45 @@
+
+
+.site-header {
+    display: flex;
+    max-width: 42em;
+
+    header {
+        margin-bottom: 2rem;
+        z-index: 99;
+        width: 100%;
+
+        .inner {
+            &::after{
+                a,
+                a:focus,
+                a:hover {
+                    color: $base-niji;
+                }
+
+                .masthead-brand:hover,
+                .masthead-brand:focus,
+                .nav-link:hover,
+                .nav-link:focus {
+                    border-bottom-color: $base-sanji; //rgba(205, 205, 205, .55);
+                    box-shadow: 1px 50px 19px #3f3f3f;
+                    background-color: transparent;
+                }
+            }
+
+            h3 {
+                float: left;
+                margin-bottom: 0;
+            }
+
+            .nav-masthead {
+                float: right;
+
+                .active {
+                    color: $base-niji;
+                    border-bottom-color: $base-niji;
+                }
+            }
+        }
+    }
+}
