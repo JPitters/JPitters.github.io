@@ -12,7 +12,7 @@ class Base extends Component {
         return (
             <div className="site">
                 <Header {...props}/>
-                {/* Main goes here */}
+                <Main {...props}/>
                 <Footer {...props}/>
             </div>
         );
