@@ -4,7 +4,7 @@ import Main from './Main';
 class Home extends Component {
     constructor(props) {
         super(props);
-        this.state = {  }
+        //this.state = {  }
     }
     render() { 
         return (

@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from '../logo.svg';
-import '../css/App.css';
+//import logo from '../logo.svg';
+import '../css/app.scss';
 import { hot } from 'react-hot-loader';
+import { Router, Switch, Route } from 'react-router-dom';
+import Main from './scenes/Main';
+import { history } from './store';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router history={history} onUpdate={() => { window.scrollTo(0, 0); }}>
+      <Switch>
+        <Route path="/" name="Main" component={Main}/>
+      </Switch>
+    </Router>
   );
 }
 
