@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "JPitters.github.io/static/css/main.41950399.chunk.css",
+    "main.css": "JPitters.github.io/static/css/main.d0e14feb.chunk.css",
     "main.js": "JPitters.github.io/static/js/main.f003dbd7.chunk.js",
     "main.js.map": "JPitters.github.io/static/js/main.f003dbd7.chunk.js.map",
     "runtime-main.js": "JPitters.github.io/static/js/runtime-main.8612658d.js",
@@ -9,10 +9,10 @@
     "static/js/2.de0fd477.chunk.js": "JPitters.github.io/static/js/2.de0fd477.chunk.js",
     "static/js/2.de0fd477.chunk.js.map": "JPitters.github.io/static/js/2.de0fd477.chunk.js.map",
     "index.html": "JPitters.github.io/index.html",
-    "precache-manifest.17647aeede153202c923bcabcb6d742c.js": "JPitters.github.io/precache-manifest.17647aeede153202c923bcabcb6d742c.js",
+    "precache-manifest.42867db022e74f68621360f2c48e5b69.js": "JPitters.github.io/precache-manifest.42867db022e74f68621360f2c48e5b69.js",
     "service-worker.js": "JPitters.github.io/service-worker.js",
     "static/css/2.699c7d85.chunk.css.map": "JPitters.github.io/static/css/2.699c7d85.chunk.css.map",
-    "static/css/main.41950399.chunk.css.map": "JPitters.github.io/static/css/main.41950399.chunk.css.map",
+    "static/css/main.d0e14feb.chunk.css.map": "JPitters.github.io/static/css/main.d0e14feb.chunk.css.map",
     "static/js/2.de0fd477.chunk.js.LICENSE.txt": "JPitters.github.io/static/js/2.de0fd477.chunk.js.LICENSE.txt",
     "static/media/header-bg1.4a587121.jpg": "JPitters.github.io/static/media/header-bg1.4a587121.jpg",
     "static/media/logo.svg": "JPitters.github.io/static/media/logo.5d5d9eef.svg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.8612658d.js",
     "static/css/2.699c7d85.chunk.css",
     "static/js/2.de0fd477.chunk.js",
-    "static/css/main.41950399.chunk.css",
+    "static/css/main.d0e14feb.chunk.css",
     "static/js/main.f003dbd7.chunk.js"
   ]
 }
