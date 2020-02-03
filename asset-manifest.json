@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "JPitters.github.io/static/css/main.d1b05096.chunk.css",
-    "main.js": "JPitters.github.io/static/js/main.2c3bb654.chunk.js",
-    "main.js.map": "JPitters.github.io/static/js/main.2c3bb654.chunk.js.map",
+    "main.css": "JPitters.github.io/static/css/main.3e4208ef.chunk.css",
+    "main.js": "JPitters.github.io/static/js/main.bcff516a.chunk.js",
+    "main.js.map": "JPitters.github.io/static/js/main.bcff516a.chunk.js.map",
     "runtime-main.js": "JPitters.github.io/static/js/runtime-main.8612658d.js",
     "runtime-main.js.map": "JPitters.github.io/static/js/runtime-main.8612658d.js.map",
-    "static/js/2.d4472c9a.chunk.js": "JPitters.github.io/static/js/2.d4472c9a.chunk.js",
-    "static/js/2.d4472c9a.chunk.js.map": "JPitters.github.io/static/js/2.d4472c9a.chunk.js.map",
+    "static/css/2.699c7d85.chunk.css": "JPitters.github.io/static/css/2.699c7d85.chunk.css",
+    "static/js/2.8f1147f1.chunk.js": "JPitters.github.io/static/js/2.8f1147f1.chunk.js",
+    "static/js/2.8f1147f1.chunk.js.map": "JPitters.github.io/static/js/2.8f1147f1.chunk.js.map",
     "index.html": "JPitters.github.io/index.html",
-    "precache-manifest.a8d60f818d85c37383ab32a464daeb7a.js": "JPitters.github.io/precache-manifest.a8d60f818d85c37383ab32a464daeb7a.js",
+    "precache-manifest.e8df4ebabc48bf2c84ed2c8f335add1d.js": "JPitters.github.io/precache-manifest.e8df4ebabc48bf2c84ed2c8f335add1d.js",
     "service-worker.js": "JPitters.github.io/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "JPitters.github.io/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.d4472c9a.chunk.js.LICENSE.txt": "JPitters.github.io/static/js/2.d4472c9a.chunk.js.LICENSE.txt",
+    "static/css/2.699c7d85.chunk.css.map": "JPitters.github.io/static/css/2.699c7d85.chunk.css.map",
+    "static/css/main.3e4208ef.chunk.css.map": "JPitters.github.io/static/css/main.3e4208ef.chunk.css.map",
+    "static/js/2.8f1147f1.chunk.js.LICENSE.txt": "JPitters.github.io/static/js/2.8f1147f1.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "JPitters.github.io/static/media/header-bg1.4a587121.jpg",
     "static/media/logo.svg": "JPitters.github.io/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8612658d.js",
-    "static/js/2.d4472c9a.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.2c3bb654.chunk.js"
+    "static/css/2.699c7d85.chunk.css",
+    "static/js/2.8f1147f1.chunk.js",
+    "static/css/main.3e4208ef.chunk.css",
+    "static/js/main.bcff516a.chunk.js"
   ]
 }
