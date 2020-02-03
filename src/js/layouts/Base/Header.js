@@ -31,29 +31,29 @@ class Header extends Component {
                     <div className="content-main">
                         <div className="content-actions row">
                             <div className="contact-source col">
-                                <a href="" target="_blank">
-                                    <FontAwesomeIcon icon={['fab', 'linkedin']} size="md" />
+                                <a href="https://www.linkedin.com/in/jpitters" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={['fab', 'linkedin']} size="lg" />
                                     <br />
                                     <span>LinkedIn</span>
                                 </a>
                             </div>
                             <div className="contact-source col">
-                                <a href="" target="_blank">
-                                    <FontAwesomeIcon icon={['fab', 'github']} size="md"/>
+                                <a href="https://www.github.com/JPitters" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={['fab', 'github']} size="lg"/>
                                     <br />
                                     <span>Github</span>
                                 </a>
                             </div>
                             <div className="contact-source col">
                                 <a href="" target="_blank">
-                                    <FontAwesomeIcon icon="at" size="md"/>
+                                    <FontAwesomeIcon icon="at" size="lg"/>
                                     <br />
                                     <span>Email</span>
                                 </a>
                             </div>
                             <div className="contact-source col">
-                                <a href="" target="_blank">
-                                    <FontAwesomeIcon icon="file-pdf" size="md"/>
+                                <a href="//src/images/files/JordanPitters_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon="file-pdf" size="lg"/>
                                     <br />
                                     <span>Resume</span>
                                 </a>

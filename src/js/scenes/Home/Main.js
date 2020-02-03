@@ -10,10 +10,10 @@ class Main extends Component {
         return (
             <div className="section-main">
                 {/* */}
-                <div class="lines">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
+                <div className="lines">
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
                 </div>
 
                 <div className="main-container">
