@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Header extends Component {
     //constructor()
@@ -24,18 +25,39 @@ class Header extends Component {
                 
                 {/* rest goes here */}
                 <div className="header-content-container mx-auto">
-                    <div className="content-header">
-                        <h2>Jordan Pitters</h2>
+                    <div className="content-head">
+                        <h1>Full Stack Software Developer</h1>
                     </div>
-                    <div className="contact-info-container row">
-                        <div className="contact-source col">
-                            LinkedIn
-                        </div>
-                        <div className="contact-source col">
-                            Github
-                        </div>
-                        <div className="contact-source col">
-                            Resume
+                    <div className="content-main">
+                        <div className="content-actions row">
+                            <div className="contact-source col">
+                                <a href="" target="_blank">
+                                    <FontAwesomeIcon icon={['fab', 'linkedin']} size="md" />
+                                    <br />
+                                    <span>LinkedIn</span>
+                                </a>
+                            </div>
+                            <div className="contact-source col">
+                                <a href="" target="_blank">
+                                    <FontAwesomeIcon icon={['fab', 'github']} size="md"/>
+                                    <br />
+                                    <span>Github</span>
+                                </a>
+                            </div>
+                            <div className="contact-source col">
+                                <a href="" target="_blank">
+                                    <FontAwesomeIcon icon="at" size="md"/>
+                                    <br />
+                                    <span>Email</span>
+                                </a>
+                            </div>
+                            <div className="contact-source col">
+                                <a href="" target="_blank">
+                                    <FontAwesomeIcon icon="file-pdf" size="md"/>
+                                    <br />
+                                    <span>Resume</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

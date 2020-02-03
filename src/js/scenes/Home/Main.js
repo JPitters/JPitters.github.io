@@ -10,18 +10,25 @@ class Main extends Component {
         return (
             <div className="section-main">
                 {/* */}
-                <div className="App-header">
+                <div class="lines">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <div className="main-container">
                     <img src={logo} className="App-logo" alt="logo" />
                     <p>
-                        Edit <code>src/App.js</code> and save to reload.
+                        You have entered a CONSTRUCTION ZONE, this site is <code>In Progress</code>. 
+                        <br />Feel free to wait and watch... at your risk.
                     </p>
                     <a
                         className="App-link"
-                        href="https://reactjs.org"
+                        href="https://github.com/JPitters"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Learn React
+                        Not React
                     </a>
                 </div>
             </div>

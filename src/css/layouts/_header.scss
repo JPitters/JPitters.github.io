@@ -50,6 +50,22 @@
     }
 
     .header-content-container {
-        
+        margin: 0 0;
+        padding: 10% 0;
+
+        .content-head {
+            color: $base-niji;
+            margin: auto;
+            text-align: center;
+            margin: 2% 0;
+        }
+        .content-main {
+            text-align: center;
+            padding: 0 30%;
+            
+            .contact-source {
+                color: $base-niji;
+            }
+        }
     }
 }

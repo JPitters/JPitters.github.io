@@ -1,17 +1,26 @@
 
 
-.site-footer {
-    display: flex;
-    max-width: 42em;
-    text-align: center;
+.site-foot {
+    background-color: $base-ichiji;
+    width: 100%;
+    //max-height: 50px;
 
-    .mastfoot {
-        .inner {
-            a,
-            a:focus,
-            a:hover {
-                color: $base-niji;
+    .footer-container {
+        display: flex;
+        max-width: 42em;
+        text-align: center;
+        color: $base-niji;
+        padding-top: 10px;
+
+        .mastfoot {
+            .inner {
+                a,
+                a:focus,
+                a:hover {
+                    color: $base-niji;
+                }
             }
         }
     }
+    
 }

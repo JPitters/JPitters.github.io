@@ -5,6 +5,7 @@ import { hot } from 'react-hot-loader';
 import { Router, Switch, Route } from 'react-router-dom';
 import Main from './scenes/Main';
 import { history } from './store';
+import './libraries/fontawesome';
 
 function App() {
   return (
