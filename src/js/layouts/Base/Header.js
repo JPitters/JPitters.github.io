@@ -10,20 +10,20 @@ var Section = styled.section`
     position: relative;
     height: 100%;
 `;
-console.log(Section);
+//console.log(Section);
 
 class Header extends Component {
-    constructor(props) {
-        super(props);
-        this.bgStyle = {};
-    }
+    // constructor(props) {
+    //     super(props);
+    //     this.bgStyle = {};
+    // }
 
-    componentDidMount(){
-        console.log(this.bgStyle);
+    throwEmail(){
+        alert("jordanpitters@gmail.com");
     }
 
     render() { 
-        //const {style1} = this.bgStyle.style;
+
         return (
             <Section className="site-head">
                 <div className="nav-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -51,28 +51,28 @@ class Header extends Component {
                         <div className="content-actions row">
                             <div className="contact-source col">
                                 <a href="https://www.linkedin.com/in/jpitters" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={['fab', 'linkedin']} size="lg" />
+                                    <FontAwesomeIcon className="fa-icon" icon={['fab', 'linkedin']} size="lg" />
                                     <br />
                                     <span>LinkedIn</span>
                                 </a>
                             </div>
                             <div className="contact-source col">
                                 <a href="https://www.github.com/JPitters" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={['fab', 'github']} size="lg"/>
+                                    <FontAwesomeIcon className="fa-icon" icon={['fab', 'github']} size="lg"/>
                                     <br />
                                     <span>Github</span>
                                 </a>
                             </div>
                             <div className="contact-source col">
-                                <a href="" target="_blank">
-                                    <FontAwesomeIcon icon="at" size="lg"/>
+                                <a href="#" onClick={this.throwEmail.bind(this)} >
+                                    <FontAwesomeIcon className="fa-icon" icon="at" size="lg"/>
                                     <br />
                                     <span>Email</span>
                                 </a>
                             </div>
                             <div className="contact-source col">
                                 <a href="https://github.com/JPitters/JPitters.github.io/blob/gh-pages/src/images/files/JordanPitters_Resume.pdf" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon="file-pdf" size="lg"/>
+                                    <FontAwesomeIcon className="fa-icon" icon="file-pdf" size="lg"/>
                                     <br />
                                     <span>Resume</span>
                                 </a>

@@ -76,7 +76,22 @@
             padding: 0 30%;
             
             .contact-source {
-                color: $base-niji;
+                position: relative;
+
+                a,
+                a:focus,
+                a:hover {
+                    position: absolute;
+                    color: #1a6c8df5;
+                }
+
+                a:focus,
+                a:hover {
+                    .fa-icon {
+                        -webkit-animation: App-logo-spin 2s infinite linear;
+                        animation: App-logo-spin 2s infinite linear;
+                    }
+                }
             }
         }
     }
