@@ -1,7 +1,14 @@
-
+@mixin background($imgpath, $repeat: no-repeat) {
+    background: {
+        image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)), url($imgpath);
+        repeat: $repeat;
+    }
+}
 
 .site-head {
-    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)), url("../../../src/images/header-bg1.jpg");//$header-ichiji;
+    //background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)), $header-ichiji;
+    //@include background('../../images/header-bg1.jpg');
+
     background-size: cover;
     position: relative;
     height: 100%;
@@ -23,13 +30,18 @@
                         color: $base-niji;
                     }
 
+                    .nav-link {
+                        background-color: transparent;
+                        border-bottom: solid 2px $base-sanji;
+                    }
+
                     .masthead-brand:hover,
                     .masthead-brand:focus,
                     .nav-link:hover,
                     .nav-link:focus {
-                        border-bottom-color: $base-sanji; //rgba(205, 205, 205, .55);
-                        box-shadow: 1px 50px 19px #3f3f3f;
                         background-color: transparent;
+                        border-bottom-color: $base-sanji; //rgba(205, 205, 205, .55);
+                        box-shadow: 1px 40px 19px #797979ab;
                     }
             }
 

@@ -1,20 +1,39 @@
 import React, { Component } from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Nav, NavItem } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Background from '../../../images/header-bg1.jpg';
+import styled from 'styled-components';
+
+var Section = styled.section`
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)), url(${Background});
+    background-size: cover;
+    position: relative;
+    height: 100%;
+`;
+console.log(Section);
 
 class Header extends Component {
-    //constructor()
-    //state = {  }
+    constructor(props) {
+        super(props);
+        this.bgStyle = {};
+    }
+
+    componentDidMount(){
+        console.log(this.bgStyle);
+    }
 
     render() { 
+        //const {style1} = this.bgStyle.style;
         return (
-            <section className="site-head">
+            <Section className="site-head">
                 <div className="nav-container d-flex w-100 h-100 p-3 mx-auto flex-column">
                     <div className="masthead mb-auto">
                         <div className="inner">
                             <h3 className="masthead-brand"><a href="https://github.com/JPitters"  target="_blank" rel="noopener noreferrer">J. Pitters</a></h3>
                             <Nav className="nav nav-masthead justify-content-center">
-                                <a className="nav-link active" href="/">Home</a>
+                                <NavItem>
+                                    <Nav.Link className="nav-link active" href="/">Home</Nav.Link>
+                                </NavItem>
                                 {/*<a className="nav-link" href="#">Projects</a>
                                 <a className="nav-link" href="/about">About</a>
                                 <a className="nav-link" href="#">Blog</a>*/}
@@ -52,7 +71,7 @@ class Header extends Component {
                                 </a>
                             </div>
                             <div className="contact-source col">
-                                <a href="//src/images/files/JordanPitters_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/JPitters/JPitters.github.io/blob/gh-pages/src/images/files/JordanPitters_Resume.pdf" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon="file-pdf" size="lg"/>
                                     <br />
                                     <span>Resume</span>
@@ -61,7 +80,7 @@ class Header extends Component {
                         </div>
                     </div>
                 </div>
-            </section>
+            </Section>
         );
     }
 }
